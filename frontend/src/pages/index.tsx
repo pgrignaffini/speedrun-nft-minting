@@ -57,7 +57,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col space-y-4 items-center justify-center px-20 text-center">
+      <main className="flex w-full flex-1 flex-col space-y-4 items-center mt-12 text-center">
+        <img src='/pngegg.png' alt='logo' className='h-36 w-36' />
+        <p className='font-logo text-2xl'>Pick your zodiac sign</p>
         <select className='p-2 w-96 outline-none rounded-md shadow-md text-center'
           value={selectedSign} onChange={(e) => handleChange(e)}>
           <option value="Aries">&#x2648; Aries</option>

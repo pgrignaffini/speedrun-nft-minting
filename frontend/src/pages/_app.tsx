@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <WagmiConfig client={client}>
       <ConnectKitProvider theme="soft">
         <Toaster />
-        <div className="bg-slate-200 min-h-screen min-w-fit">
+        <div className="bg-slate-100 min-h-screen min-w-fit">
           <Header />
           <Component {...pageProps} />
         </div>
